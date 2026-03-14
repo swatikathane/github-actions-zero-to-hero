@@ -4,7 +4,7 @@ on:
     push:
         branches: [main]
 jobs:
-# name of the jobs
+# name of the jobs 1
     greet:
     # each jobs runs on a runner
         runs-on: ubuntu-latest
@@ -13,3 +13,9 @@ jobs:
               run: echo "hello dosto"
             - name: say hi to users
               run: echo "hello $USER"
+     # name of the jobs 1
+     details:
+    runs-on: ubuntu-latest
+    steps:
+      - name: version of python, docker, etc
+        run: docker --version && python --version
