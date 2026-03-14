@@ -13,7 +13,6 @@ jobs:
               run: echo "hello dosto"
             - name: say hi to users
               run: echo "hello $USER"
-     # name of the jobs 2
      details:
     runs-on: ubuntu-latest
     steps:
