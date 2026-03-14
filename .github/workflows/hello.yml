@@ -1,4 +1,3 @@
-# This is workflow name
 name: Hello 
 # runs on an automatic trigger, whenever change is pushed to branch (deployment)
 on:
