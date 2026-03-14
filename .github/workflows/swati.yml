@@ -1,0 +1,13 @@
+name: swati
+city: pune
+Hobbies: 
+    - dancing
+    - singing
+    - gardening
+experince:
+   devops:
+       linux: 2
+       docker: 3
+       twrrform: 1
+       deployment: 2
+    
